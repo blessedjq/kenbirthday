@@ -3,7 +3,7 @@ import moment from "moment";
 import "./App.css";
 import { motion, AnimatePresence } from "framer-motion";
 
-const BIRTHDAY = moment("2025-03-27T00:00:00");
+const BIRTHDAY = moment("2025-06-27T00:00:00");
 const SECRET_CODE = "2002";
 
 export default function App() {
