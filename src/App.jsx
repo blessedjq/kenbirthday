@@ -45,7 +45,7 @@ export default function App() {
     "When you said ‘I don’t believe in love’… I smiled, because I believe in us enough for both.",
     "You remembered my birthday because it was the day I proposed you made it unforgettable without trying.",
     "You said you'd fix the girl I love .... even knowing, you are her.",
-    'I remember our late night talk where we where mimicing each others words and in sleepy tone',
+    'I remember our late night talk where we where mimicing each others words in sleepy tone',
     'actually you asked me once -  why you like me? I told  reasons which came in mind that time,truth to be told! i dont know why but I loves you so much than I know!'
   ]);
   
@@ -183,7 +183,7 @@ Happy birthday, my reason, my cheer.<br/><br/>
                 <button onClick={prevMemory}>⬅️</button>
                 <button onClick={nextMemory}>➡️</button>
               </div>
-              <h6 className="pageno">{currentMemory+1}/{(memories.length+1)}</h6>
+              <h6 className="pageno">{currentMemory+1}/{(memories.length)}</h6>
               <button className="close-modal" onClick={() => setShowMemories(false)}>
                 Close
               </button>
