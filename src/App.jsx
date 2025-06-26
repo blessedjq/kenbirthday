@@ -183,7 +183,7 @@ Happy birthday, my reason, my cheer.<br/><br/>
                 <button onClick={prevMemory}>⬅️</button>
                 <button onClick={nextMemory}>➡️</button>
               </div>
-              <h6 className="pageno">{currentMemory+1}/{(memories.length)}</h6>
+              <h6 className="pageno">{currentMemory+1}/{(memories.length+(1-1))}</h6>
               <button className="close-modal" onClick={() => setShowMemories(false)}>
                 Close
               </button>
